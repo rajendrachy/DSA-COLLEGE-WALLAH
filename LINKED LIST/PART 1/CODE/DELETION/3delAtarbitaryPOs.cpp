@@ -47,6 +47,7 @@ void deleteAtPos(Node*& head, int pos) {
     delete temp;
 }
 
+
 // -------------Traverse-----------
 void display(Node* head) {
     Node* temp = head;

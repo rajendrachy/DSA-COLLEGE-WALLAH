@@ -29,7 +29,7 @@ void deleteAtTail(Node* &head) { // Time-complexicity ->O(n)
     while(sLast->next->next != NULL) {
         sLast = sLast->next;
     }
-    //now secondlast point to secondlast nose
+    //now secondlast point to secondlast node
     Node* temp = sLast->next;
     sLast->next = NULL;
 

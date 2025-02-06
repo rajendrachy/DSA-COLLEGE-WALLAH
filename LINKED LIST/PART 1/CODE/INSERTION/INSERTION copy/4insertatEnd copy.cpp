@@ -30,6 +30,7 @@ void insertAtTail(Node* &head, int val) { // TC -> O(1)
     temp->next = newNode;
 }
 
+
 // -------------traverse-----------
 void display(Node* head) {
     Node* temp = head;
