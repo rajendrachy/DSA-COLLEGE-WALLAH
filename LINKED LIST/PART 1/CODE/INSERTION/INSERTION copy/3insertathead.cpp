@@ -21,7 +21,7 @@ void insertAtHead(Node* &head, int val) { // Time Complexicity => O(1)
     head = newNode;
 };
 
-// -------------traverse-----------
+// -------------Traverse---------------
 void display(Node* head) {
     Node* temp = head;
     while(temp != nullptr) {

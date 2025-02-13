@@ -28,6 +28,7 @@ void insertAtTail(Node* &head, int val) { // TC -> O(1)
     }
     // temp has reached the last node
     temp->next = newNode;
+    newNode = NULL;
 }
 
 

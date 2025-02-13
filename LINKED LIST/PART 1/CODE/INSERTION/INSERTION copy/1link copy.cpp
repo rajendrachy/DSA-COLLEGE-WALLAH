@@ -6,7 +6,7 @@
 
 //-----------Advantage of Linked List over Array----------------------
 // What is Linked List ?
-// Ans-> LInked list is a Linear data structure.
+// Ans-> Linked list is a Linear data structure.
 
 // 1. Dynamic size(not fixsize , we can increase a size)
 // 2. Non-contegious memory allocation

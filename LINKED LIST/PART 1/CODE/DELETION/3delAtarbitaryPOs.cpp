@@ -33,7 +33,7 @@ void deleteAtPos(Node*& head, int pos) {
     }
 
     Node* prev = head;
-    int curr_pos = 0;
+    int curr_pos = 0; // or i = 0;
 
     while (prev->next != NULL && curr_pos < pos - 1) { // Traverse to node before the target
         prev = prev->next;

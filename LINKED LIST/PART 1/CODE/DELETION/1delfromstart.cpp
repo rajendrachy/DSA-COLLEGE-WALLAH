@@ -1,4 +1,4 @@
-// -------------Delete a NOde at the End----------------------
+// -------------Delete a Node at the End----------------------
 // ------------Delete a Node at the start------------------------
 #include<iostream>
 using namespace std;
@@ -15,7 +15,7 @@ public:
 };
 
 // --------delete at The Start------------------
-void deleteAtHead(Node*& head) {
+void deleteAtHead(Node*& head) { // Time-Complexicity -> O(1)
    if (head == NULL) return; // Handle empty list case
    Node* temp = head; // Node to be deleted
    head = head->next; 
@@ -29,7 +29,8 @@ void deleteAtTail(Node* &head) { // Time-complexicity ->O(n)
     while(sLast->next->next != NULL) {
         sLast = sLast->next;
     }
-    //now secondlast point to secondlast nose
+    
+    //Now secondlast point to secondlast nose
     Node* temp = sLast->next;
     sLast->next = NULL;
 
