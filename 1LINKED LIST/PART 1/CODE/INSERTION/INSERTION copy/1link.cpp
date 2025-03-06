@@ -18,6 +18,6 @@
 
 // -----------Type of Linked List---------------------
 // 1. Singly linked list -> Every node point to its successive(next) node.
-// 2. Doubly LInked list -> Every node is connected to its previous
+// 2. Doubly Linked list -> Every node is connected to its previous
 // and next node.
 // 3. Circular Linked list-> The last node point to head node.

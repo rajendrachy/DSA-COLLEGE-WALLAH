@@ -30,11 +30,12 @@ void deleteAtTail(Node* &head) { // Time-complexicity ->O(n)
         sLast = sLast->next;
     }
     
-    //Now secondlast point to secondlast nose
+    //Now secondlast point to secondlast node
     Node* temp = sLast->next;
     sLast->next = NULL;
 
 }
+
 
 
 // -------------traverse-----------
@@ -46,6 +47,8 @@ void display(Node* head) {
     }
     cout << "NULL" << endl;
 }
+
+
 
 int main() {
     Node* head = new Node(1);
